@@ -170,7 +170,41 @@ const Untitled3 = () => {
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }}></TextInput></View>;
+    }}></TextInput><TextInput style={{
+      left: 109,
+      top: 397,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 150,
+      height: 30
+    }}></TextInput><TextInput style={{
+      left: 78,
+      top: 356,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 150,
+      height: 30
+    }}></TextInput><View style={{
+      left: 64,
+      top: 357,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View><View style={{
+      left: 79,
+      top: 379,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View></View>;
 };
 
 export default Untitled3;
