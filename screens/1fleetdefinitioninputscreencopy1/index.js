@@ -85,7 +85,67 @@ const Untitled3 = () => {
       borderColor: "#cccccc",
       width: 65,
       height: 18
-    }} placeholder="Metric"></TextInput></View>;
+    }} placeholder="Metric"></TextInput><Text style={{
+      left: 7,
+      top: 139,
+      position: "absolute",
+      width: 100,
+      height: 18,
+      lineHeight: 14,
+      fontSize: 9,
+      borderRadius: 0
+    }}>Material Density (lbs/lcy)</Text><Text style={{
+      left: 115,
+      top: 140,
+      position: "absolute",
+      width: 70,
+      height: 18,
+      lineHeight: 14,
+      fontSize: 9,
+      borderRadius: 0
+    }}>Material swell (%)</Text><TextInput style={{
+      left: 119,
+      top: 156,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 65,
+      height: 18
+    }}></TextInput><TextInput style={{
+      left: 10,
+      top: 157,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 65,
+      height: 18
+    }}></TextInput><Text style={{
+      left: 7,
+      top: 180,
+      position: "absolute",
+      width: 100,
+      height: 50,
+      lineHeight: 14,
+      fontSize: 9,
+      borderRadius: 0
+    }}>Est. Round Trip
+Travel Time (min)</Text><TextInput style={{
+      left: 87,
+      top: 373,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 150,
+      height: 30
+    }}></TextInput><TextInput style={{
+      left: 110,
+      top: 362,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 150,
+      height: 30
+    }}></TextInput></View>;
 };
 
 export default Untitled3;
