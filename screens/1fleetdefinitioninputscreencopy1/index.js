@@ -1,3 +1,5 @@
+import { TextInput } from "react-native";
+import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import React from "react";
 import { View } from "react-native";
@@ -57,7 +59,33 @@ const Untitled3 = () => {
       borderRadius: 5,
       color: "#777777",
       borderWidth: 0
-    }}></View></View>;
+    }}></View><Text style={{
+      left: 6,
+      top: 82,
+      position: "absolute",
+      width: 100,
+      height: 50,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0
+    }}>Site Parameters </Text><Text style={{
+      left: 8,
+      top: 102,
+      position: "absolute",
+      width: 60,
+      height: 21,
+      lineHeight: 14,
+      fontSize: 9,
+      borderRadius: 0
+    }}>Unit Selection</Text><TextInput style={{
+      left: 7,
+      top: 117,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 65,
+      height: 18
+    }} placeholder="Metric"></TextInput></View>;
 };
 
 export default Untitled3;

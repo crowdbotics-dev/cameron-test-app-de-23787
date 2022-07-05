@@ -246,6 +246,15 @@ const Untitled3 = () => {
       backgroundColor: "#E4E4E4",
       borderRadius: 0,
       color: "#777777"
+    }}></View><View style={{
+      left: 77,
+      top: 385,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
     }}></View></View>;
 };
 
