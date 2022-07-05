@@ -107,8 +107,8 @@ const Untitled2 = () => {
       color: "#FFFFFF",
       fontWeight: 500
     }}>Trolley Feasibility Tool</Text><Text style={{
-      left: 4,
-      top: 125,
+      left: 0,
+      top: 131,
       position: "absolute",
       width: 193,
       height: 27,

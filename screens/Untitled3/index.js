@@ -204,6 +204,48 @@ const Untitled3 = () => {
       backgroundColor: "#E4E4E4",
       borderRadius: 0,
       color: "#777777"
+    }}></View><TextInput style={{
+      left: 104,
+      top: 168,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 65,
+      height: 18
+    }}></TextInput><TextInput style={{
+      left: 14,
+      top: 210,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 65,
+      height: 18
+    }}></TextInput><TextInput style={{
+      left: 105,
+      top: 211,
+      position: "absolute",
+      backgroundColor: "#ffffff",
+      borderColor: "#cccccc",
+      width: 65,
+      height: 18
+    }}></TextInput><View style={{
+      left: 65,
+      top: 374,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View><View style={{
+      left: 75,
+      top: 403,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
     }}></View></View>;
 };
 
