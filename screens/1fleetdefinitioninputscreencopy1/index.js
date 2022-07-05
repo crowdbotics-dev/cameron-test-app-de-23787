@@ -145,7 +145,16 @@ Travel Time (min)</Text><TextInput style={{
       borderColor: "#cccccc",
       width: 150,
       height: 30
-    }}></TextInput></View>;
+    }}></TextInput><View style={{
+      left: 49,
+      top: 371,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View></View>;
 };
 
 export default Untitled3;
