@@ -1,10 +1,13 @@
+import { Pressable } from "react-native";
 import { TextInput } from "react-native";
 import { Text } from "react-native";
 import { ImageBackground } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
-const Untitled3 = () => {
+const Untitled3 = ({
+  navigation
+}) => {
   return <View style={{
     backgroundColor: '#f0f0f1',
     padding: 10,
@@ -255,7 +258,46 @@ const Untitled3 = () => {
       backgroundColor: "#E4E4E4",
       borderRadius: 0,
       color: "#777777"
-    }}></View></View>;
+    }}></View><View style={{
+      left: 9,
+      top: 240,
+      position: "absolute",
+      height: 27,
+      width: 175,
+      backgroundColor: "#ffc82f",
+      borderRadius: 5,
+      color: "#777777"
+    }}></View><Text style={{
+      left: 47,
+      top: 246,
+      position: "absolute",
+      width: 100,
+      height: 23,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0,
+      fontWeight: 500
+    }}>Reset Loader</Text><Pressable onPress={() => navigation.navigate("2applicationinputparametersscreencopy1")}><View style={{
+        left: 1,
+        top: 288,
+        position: "absolute",
+        height: 27,
+        width: 162,
+        backgroundColor: "#2d2f8a",
+        borderRadius: 5,
+        color: "#777777"
+      }}></View></Pressable><Text style={{
+      left: 74,
+      top: 304,
+      position: "absolute",
+      width: 59,
+      height: 22,
+      lineHeight: 14,
+      fontSize: 14,
+      borderRadius: 0,
+      color: "#f5f5f5",
+      fontWeight: 500
+    }}>Next</Text></View>;
 };
 
 export default Untitled3;
